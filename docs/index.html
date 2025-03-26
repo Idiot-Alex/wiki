@@ -7,16 +7,17 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="/_media/app.css">
 </head>
 <body>
   <div id="app">Please wait...</div>
   <script>
     window.$docsify = {
-      name: "Hotstrip's Wiki",
-      repo: '',
-      logo: '/_media/hotstrip.jpg',
+      name: `<img alt="Hotstrip's Wiki" src="/_media/logo.jpg"><span>Hotstrip's Wiki</span>`,
+      repo: 'https://github.com/Idiot-Alex/wiki',
       loadNavbar: true,
       loadSidebar: true,
+      // autoHeader: true,
       subMaxLevel: 2,
       search: {
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
